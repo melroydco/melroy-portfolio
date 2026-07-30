@@ -1,110 +1,109 @@
-# Melroy AI Portfolio — Premium Version
+# Melroy Dcosta — Portfolio
 
-A modern portfolio for AI / Data Science roles, built with:
+A modern personal portfolio website showcasing my work in **Data Science, Machine Learning, Artificial Intelligence, Generative AI, and Software Development**.
 
-- Next.js 15
-- React 19
+The website includes my projects, professional experience, education, technical skills, resume, and ways to connect with me.
+
+## Features
+
+- Interactive and responsive portfolio design
+- Animated startup and page transitions
+- AI-inspired graphics and animations
+- Project showcase with images and technologies
+- Experience and education timeline
+- Categorized technical skills
+- Resume access
+- GitHub, LinkedIn, and social links
+- Mobile-friendly design
+
+## Built With
+
+- Next.js
+- React
 - TypeScript
 - Tailwind CSS
 - Framer Motion
 - Lucide React
+- React Icons
 
-## 1. Install Node.js
+## Project Structure
 
-Download and install Node.js LTS from https://nodejs.org/
-
-Check the installation:
-
-```bash
-node -v
-npm -v
+```text
+├── app/
+├── components/
+├── data/
+├── public/
+│   ├── image/
+│   ├── logos/
+│   ├── projects/
+│   └── resume/
+├── package.json
+└── README.md
 ```
 
-## 2. Open the project folder
+## How to Run Locally
 
-Extract the ZIP and open the folder in VS Code.
-
-Or in Terminal:
+### 1. Clone the repository
 
 ```bash
-cd melroy-ai-portfolio-premium
+git clone https://github.com/melroydco/melroy-portfolio.git
 ```
 
-## 3. Install dependencies
+### 2. Open the project folder
+
+```bash
+cd melroy-portfolio
+```
+
+### 3. Install dependencies
+
+Make sure you have Node.js installed, then run:
 
 ```bash
 npm install
 ```
 
-## 4. Start the website
+### 4. Start the development server
 
 ```bash
 npm run dev
 ```
 
-Then open:
+### 5. Open the website
 
+Open the following in your browser:
+
+```text
 http://localhost:3000
-
-## 5. Edit your information
-
-Main content is in:
-
-```text
-data/portfolio.ts
 ```
 
-Edit your:
+The portfolio should now be running locally.
 
-- Projects
-- Skills
-- Experience
+## Production Build
 
-Hero text is in:
-
-```text
-components/Hero.tsx
-```
-
-Contact information is in:
-
-```text
-components/Contact.tsx
-```
-
-## 6. Build before deploying
+To check that the website builds correctly for production:
 
 ```bash
 npm run build
 ```
 
-## 7. Deploy to Vercel
-
-1. Upload the folder to GitHub.
-2. Go to https://vercel.com
-3. Sign in with GitHub.
-4. Click Add New → Project.
-5. Import your portfolio repository.
-6. Click Deploy.
-
-Vercel detects Next.js automatically.
-
-## Important placeholders
-
-Replace these before publishing:
-
-- `your.email@example.com`
-- GitHub URL
-- LinkedIn URL
-
-## Common issue
-
-If dependencies behave strangely:
+Then run:
 
 ```bash
-rm -rf node_modules package-lock.json .next
-npm install
-npm run dev
+npm start
 ```
 
-On Windows PowerShell, delete `node_modules`, `package-lock.json`, and `.next` manually instead.
+## Deployment
+
+The website can be deployed using Vercel by connecting this GitHub repository to a Vercel project.
+
+## Connect
+
+**Melroy Dcosta**
+
+- LinkedIn: `linkedin.com/in/melroy-dcosta`
+- GitHub: `github.com/melroydco`
+
+---
+
+Built with Next.js, React, TypeScript, Tailwind CSS and Framer Motion.
