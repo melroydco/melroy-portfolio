@@ -8,91 +8,123 @@ export const navLinks = [
 
 export const projects = [
   {
+    title: "Octofit Fitness Tracker",
+    description:
+      "A multi-tier fitness application developed using GitHub Copilot Agent Mode. The application includes backend routes for users, teams, activities, workouts and leaderboards, supported by a MongoDB data layer.",
+    tech: [
+      "JavaScript",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "REST APIs",
+      "GitHub Copilot",
+    ],
+    label: "FULL-STACK APPLICATION",
+    image: "/projects/octofit.jpg",
+    github:
+      "https://github.com/melroydco/skills-build-applications-w-copilot-agent-mode",
+  },
+
+  {
+    title: "E-Commerce Analytics Dashboard",
+    description:
+      "An end-to-end analytics project that transforms retail transaction data into validated analytics, customer segments, reusable data marts and an interactive business dashboard.",
+    tech: [
+      "Python",
+      "Pandas",
+      "SQL",
+      "SQLite",
+      "Streamlit",
+      "Plotly",
+    ],
+    label: "DATA ANALYTICS",
+    image: "/projects/ecommerce-dashboard.jpg",
+    github:
+      "https://github.com/melroydco/E_com_analytic_dashboard",
+  },
+
+  {
     title: "AI Coloring Book Generator",
     description:
-      "Developed an AI pipeline that converts Wikipedia portraits of famous personalities into clean, printable coloring-book illustrations while preserving recognizable facial features and simplifying visual details.",
+      "An AI pipeline that transforms portraits of famous personalities into clean, printable coloring-book line art while preserving recognizable facial features.",
     tech: [
       "Python",
       "PyTorch",
-      "Diffusers",
       "OpenCV",
-      "ControlNet",
-      "Computer Vision"
+      "Diffusers",
+      "Computer Vision",
+      "Generative AI",
     ],
-    accent: "Generative AI"
+    label: "GENERATIVE AI",
+    image: "/projects/coloring-book.jpg",
+    github: "",
   },
 
   {
     title: "Restaurant Success Prediction",
     description:
-      "Developed machine-learning models for predicting restaurant success using feature engineering and exploratory data analysis, achieving approximately 85% prediction accuracy and using SHAP to explain model decisions.",
+      "Developed machine-learning models for restaurant success prediction using exploratory analysis, feature engineering, XGBoost and SHAP-based model explainability.",
     tech: [
       "Python",
       "XGBoost",
       "Random Forest",
       "SHAP",
       "Pandas",
-      "Scikit-learn"
+      "Scikit-learn",
     ],
-    accent: "Machine Learning"
+    label: "MACHINE LEARNING",
+    image: "/projects/restaurant-ai.jpg",
+    github: "",
   },
 
   {
-    title: "Cyphercanva — GAN-Based Image Steganography",
+    title: "GAN-Based Image Steganography",
     description:
-      "Developed a GAN-based image steganography system for hiding information within images while preserving approximately 80% image quality and reducing detection errors by around 30%.",
+      "Developed a GAN-based image steganography system for hiding information within images while maintaining visual quality and improving resistance to detection.",
     tech: [
       "Python",
       "GANs",
       "Deep Learning",
+      "TensorFlow",
       "Computer Vision",
-      "TensorFlow"
     ],
-    accent: "Deep Learning"
+    label: "DEEP LEARNING",
+    image: "/projects/steganography.jpg",
+    github: "",
   },
 
   {
-    title: "Voice-Based Dialog System",
+    title: "RAG PDF Chatbot",
     description:
-      "Built a conversational AI system combining speech processing, natural language understanding and response generation to enable voice-driven human-computer interaction.",
+      "A document-question answering application that retrieves relevant information from PDF files and generates grounded responses using a retrieval-augmented generation pipeline.",
     tech: [
       "Python",
-      "NLP",
-      "Speech Processing",
-      "REST APIs",
-      "Docker"
+      "LangChain",
+      "LangGraph",
+      "OpenAI",
+      "FAISS",
+      "ChromaDB",
+      "Sentence Transformers",
     ],
-    accent: "Conversational AI"
+    label: "LLM & RAG",
+    image: "/projects/rag-chatbot.jpg",
+    github: "",
   },
 
   {
     title: "Gym Management System",
     description:
-      "Developed a full-stack gym management application for managing memberships, packages, trainers, payments and membership validity through an administrative dashboard.",
+      "A database-backed management system for organizing gym members, memberships, subscription information and administrative workflows.",
     tech: [
-      "PHP",
-      "MySQL",
-      "MySQLi",
-      "HTML",
-      "CSS",
-      "XAMPP"
+      "Java",
+      "SQL",
+      "Database Design",
+      "Software Engineering",
     ],
-    accent: "Full Stack"
+    label: "SOFTWARE DEVELOPMENT",
+    image: "/projects/gym-management.jpg",
+    github: "",
   },
-
-  {
-    title: "Grayscale to Color Image Conversion",
-    description:
-      "Developed a deep-learning image colorization pipeline that transforms grayscale images into plausible color images using learned visual representations and computer-vision preprocessing.",
-    tech: [
-      "Python",
-      "Deep Learning",
-      "Computer Vision",
-      "OpenCV",
-      "TensorFlow"
-    ],
-    accent: "Computer Vision"
-  }
 ];
 
 export const experience = [
@@ -135,14 +167,16 @@ export const experience = [
 
 export const skillGroups = [
   {
-    category: "Programming",
+    category: "Programming Languages",
     skills: [
       "Python",
-      "C++",
       "Java",
+      "C++",
+      "JavaScript",
+      "TypeScript",
       "SQL",
-      "R"
-    ]
+      "R",
+    ],
   },
 
   {
@@ -150,11 +184,17 @@ export const skillGroups = [
     skills: [
       "Pandas",
       "NumPy",
-      "Data Analysis",
+      "Power BI",
+      "Matplotlib",
+      "SHAP",
+      "XGBoost",
       "EDA",
       "Statistical Analysis",
-      "Feature Engineering"
-    ]
+      "Feature Engineering",
+      "Predictive Analytics",
+      "Data Visualization",
+      "Customer Segmentation",
+    ],
   },
 
   {
@@ -163,67 +203,79 @@ export const skillGroups = [
       "PyTorch",
       "TensorFlow",
       "Scikit-learn",
-      "XGBoost",
       "Deep Learning",
-      "Computer Vision"
-    ]
+      "Computer Vision",
+      "Neural Networks",
+      "Model Evaluation",
+      "Model Optimization",
+    ],
   },
 
   {
-    category: "LLM & Generative AI",
+    category: "Generative AI & LLMs",
     skills: [
+      "LangChain",
+      "LangGraph",
+      "OpenAI API",
+      "Groq API",
       "LLMs",
       "RAG",
-      "Generative AI",
       "Prompt Engineering",
-      "Hugging Face",
-      "Agentic AI"
-    ]
+      "Sentence Transformers",
+      "Embeddings",
+      "FAISS",
+      "ChromaDB",
+      "Typesense",
+    ],
   },
 
   {
-    category: "Analysis & BI Tools",
+    category: "Backend & APIs",
     skills: [
-      "Power BI",
-      "Excel",
-      "Jupyter",
-      "Matplotlib",
-      "SHAP"
-    ]
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "MySQL",
+      "Flask",
+      "REST APIs",
+      "Authentication",
+      "CRUD Applications",
+    ],
   },
 
   {
-    category: "Web Design & UI/UX",
+    category: "Web Development",
     skills: [
-      "HTML5",
-      "CSS3",
-      "JavaScript",
       "React",
       "Next.js",
       "Tailwind CSS",
-      "Figma",
-      "UI/UX Design"
-    ]
+      "HTML5",
+      "CSS3",
+      "Responsive Design",
+      "UI/UX Design",
+    ],
   },
 
   {
     category: "Cloud & DevOps",
     skills: [
-      "Azure",
-      "AWS",
-      "Docker",
       "Git",
       "GitHub",
-      "Linux"
-    ]
+      "Docker",
+      "Linux",
+      "Vercel",
+      "GitHub Copilot",
+    ],
   },
 
   {
-    category: "Backend & Development",
+    category: "Development Tools",
     skills: [
-      "Flask",
-      "REST APIs",
-      "MySQL"
-    ]
-  }
+      "VS Code",
+      "Jupyter Notebook",
+      "Google Colab",
+      "Postman",
+      "npm",
+    ],
+  },
 ];
