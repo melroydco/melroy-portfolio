@@ -168,6 +168,8 @@ export const experience = [
 export const skillGroups = [
   {
     category: "Programming Languages",
+    description:
+      "Languages used across analytics, artificial intelligence and application development.",
     skills: [
       "Python",
       "Java",
@@ -181,38 +183,41 @@ export const skillGroups = [
 
   {
     category: "Data Science & Analytics",
+    description:
+      "Tools and methods for transforming raw data into meaningful insights.",
     skills: [
       "Pandas",
       "NumPy",
-      "Power BI",
-      "Matplotlib",
-      "SHAP",
-      "XGBoost",
       "EDA",
       "Statistical Analysis",
       "Feature Engineering",
       "Predictive Analytics",
       "Data Visualization",
       "Customer Segmentation",
+      "SHAP",
     ],
   },
 
   {
     category: "Machine Learning & AI",
+    description:
+      "Frameworks and techniques for training, evaluating and explaining intelligent models.",
     skills: [
       "PyTorch",
       "TensorFlow",
       "Scikit-learn",
+      "XGBoost",
       "Deep Learning",
       "Computer Vision",
       "Neural Networks",
       "Model Evaluation",
-      "Model Optimization",
     ],
   },
 
   {
     category: "Generative AI & LLMs",
+    description:
+      "Technologies for retrieval, conversational and agentic artificial-intelligence applications.",
     skills: [
       "LangChain",
       "LangGraph",
@@ -230,50 +235,64 @@ export const skillGroups = [
   },
 
   {
-    category: "Backend & APIs",
+    category: "Analytics & BI Tools",
+    description:
+      "Platforms used for reporting, dashboards and exploratory analysis.",
     skills: [
-      "Node.js",
-      "Express.js",
-      "MongoDB",
-      "MySQL",
-      "Flask",
-      "REST APIs",
-      "Authentication",
-      "CRUD Applications",
+      "Power BI",
+      "Excel",
+      "Jupyter Notebook",
+      "Google Colab",
+      "Matplotlib",
+      "Plotly",
+      "Streamlit",
+      "SQLite",
     ],
   },
 
   {
-    category: "Web Development",
+    category: "Backend & Databases",
+    description:
+      "Backend technologies used to build APIs and database-backed applications.",
+    skills: [
+      "Node.js",
+      "Express.js",
+      "Flask",
+      "REST APIs",
+      "MongoDB",
+      "MySQL",
+      "SQLite",
+      "Authentication",
+    ],
+  },
+
+  {
+    category: "Web Design & UI/UX",
+    description:
+      "Technologies used to build responsive and visually engaging interfaces.",
     skills: [
       "React",
       "Next.js",
-      "Tailwind CSS",
       "HTML5",
       "CSS3",
+      "Tailwind CSS",
       "Responsive Design",
       "UI/UX Design",
     ],
   },
 
   {
-    category: "Cloud & DevOps",
+    category: "Development & Deployment",
+    description:
+      "Tools used for source control, development, testing and deployment.",
     skills: [
       "Git",
       "GitHub",
+      "GitHub Copilot",
       "Docker",
       "Linux",
       "Vercel",
-      "GitHub Copilot",
-    ],
-  },
-
-  {
-    category: "Development Tools",
-    skills: [
       "VS Code",
-      "Jupyter Notebook",
-      "Google Colab",
       "Postman",
       "npm",
     ],

@@ -59,7 +59,7 @@ export default function Projects() {
               <div className="mb-12 flex items-start justify-between gap-4">
 
                 <span className="rounded-full border border-violet-400/20 bg-violet-400/10 px-3 py-1 text-xs text-violet-200">
-                  {project.accent}
+                  {project.label}
                 </span>
 
                 <motion.div

@@ -233,31 +233,7 @@ export default function HeroGraphics() {
       </motion.div>
 
 
-      <motion.div
-        animate={{
-          y: [0, 12, 0],
-        }}
-        transition={{
-          duration: 6,
-          repeat: Infinity,
-        }}
-        className="
-          glass
-          absolute
-          bottom-[22%]
-          left-[8%]
-          hidden
-          rounded-xl
-          px-4
-          py-2
-          font-mono
-          text-xs
-          text-blue-300
-          lg:block
-        "
-      >
-        accuracy = 0.85
-      </motion.div>
+    
 
 
       <motion.div
