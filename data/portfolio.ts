@@ -8,27 +8,30 @@ export const navLinks = [
 
 export const projects = [
   {
-    title: "Octofit Fitness Tracker",
+    title: "Smart Energy Analytics Platform",
     description:
-      "A multi-tier fitness application developed using GitHub Copilot Agent Mode. The application includes backend routes for users, teams, activities, workouts and leaderboards, supported by a MongoDB data layer.",
+      "Built a memory-efficient smart-meter analytics platform that processes large-scale energy data in chunks, aggregates it into compact SQL models, detects anomalies, forecasts demand and presents insights through an interactive dashboard.",
     tech: [
-      "JavaScript",
-      "Node.js",
-      "Express.js",
-      "MongoDB",
-      "REST APIs",
-      "GitHub Copilot",
+      "Python",
+      "Pandas",
+      "NumPy",
+      "SQL",
+      "SQLite",
+      "Scikit-learn",
+      "Streamlit",
+      "Plotly",
+      "Time Series",
     ],
-    label: "FULL-STACK APPLICATION",
-    image: "/projects/octofit.jpg",
+    label: "DATA ENGINEERING & ML",
+    image: "/projects/smart-energy.jpeg",
     github:
-      "https://github.com/melroydco/skills-build-applications-w-copilot-agent-mode",
+      "https://github.com/melroydco/smart_energy_analytics",
   },
 
   {
     title: "E-Commerce Analytics Dashboard",
     description:
-      "An end-to-end analytics project that transforms retail transaction data into validated analytics, customer segments, reusable data marts and an interactive business dashboard.",
+      "End-to-end analytics project processing more than 541,000 retail transactions to analyse revenue, customers, products, returns and data quality using reusable SQL analytics and interactive dashboards.",
     tech: [
       "Python",
       "Pandas",
@@ -36,34 +39,56 @@ export const projects = [
       "SQLite",
       "Streamlit",
       "Plotly",
+      "RFM",
     ],
     label: "DATA ANALYTICS",
-    image: "/projects/ecommerce-dashboard.jpg",
+    image: "/projects/ecommerce-dashboard.png",
     github:
       "https://github.com/melroydco/E_com_analytic_dashboard",
   },
 
   {
-    title: "AI Coloring Book Generator",
+    title: "RAG PDF Assistant",
     description:
-      "An AI pipeline that transforms portraits of famous personalities into clean, printable coloring-book line art while preserving recognizable facial features.",
+      "Retrieval-Augmented Generation application that processes PDF documents, creates semantic embeddings, retrieves relevant document context and generates grounded answers using LLMs.",
     tech: [
       "Python",
-      "PyTorch",
-      "OpenCV",
-      "Diffusers",
-      "Computer Vision",
-      "Generative AI",
+      "LangChain",
+      "LangGraph",
+      "OpenAI",
+      "Groq",
+      "FAISS",
+      "ChromaDB",
+      "Typesense",
+      "Sentence Transformers",
     ],
-    label: "GENERATIVE AI",
-    image: "/projects/coloring-book.jpg",
-    github: "",
+    label: "GENERATIVE AI & RAG",
+    image: "/projects/rag-chatbot.png",
+    github:
+      "https://github.com/melroydco/RAG_assistant",
+  },
+
+  {
+    title: "GAN-Based Image Steganography",
+    description:
+      "Deep-learning steganography project using GAN-based techniques to hide information inside images while preserving visual quality and improving resistance to detection.",
+    tech: [
+      "Python",
+      "GANs",
+      "Deep Learning",
+      "Computer Vision",
+      "Image Processing",
+    ],
+    label: "DEEP LEARNING",
+    image: "/projects/steganography.jpeg",
+    github:
+      "https://github.com/melroydco/cipher_canva",
   },
 
   {
     title: "Restaurant Success Prediction",
     description:
-      "Developed machine-learning models for restaurant success prediction using exploratory analysis, feature engineering, XGBoost and SHAP-based model explainability.",
+      "Machine-learning project for predicting restaurant success using exploratory data analysis, feature engineering, predictive modelling and explainability.",
     tech: [
       "Python",
       "XGBoost",
@@ -73,48 +98,50 @@ export const projects = [
       "Scikit-learn",
     ],
     label: "MACHINE LEARNING",
-    image: "/projects/restaurant-ai.jpg",
-    github: "",
+    image: "/projects/restraunt-ai.jpeg",
+    github:
+      "https://github.com/melroydco/restro_success_predict",
   },
 
   {
-    title: "GAN-Based Image Steganography",
+    title: "Octofit Fitness Tracker",
     description:
-      "Developed a GAN-based image steganography system for hiding information within images while maintaining visual quality and improving resistance to detection.",
+      "Multi-tier fitness application developed using GitHub Copilot Agent Mode, with backend routes for users, teams, activities, workouts and leaderboards.",
+    tech: [
+      "JavaScript",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "REST APIs",
+      "GitHub Copilot",
+    ],
+    label: "FULL-STACK APPLICATION",
+    image: "/projects/octofit.png",
+    github:
+      "https://github.com/melroydco/skills-build-applications-w-copilot-agent-mode",
+  },
+
+  {
+    title: "AI Coloring Book Generator",
+    description:
+      "AI pipeline that transforms portraits into clean, printable coloring-book line art while preserving important facial structure and recognizable identity.",
     tech: [
       "Python",
-      "GANs",
-      "Deep Learning",
-      "TensorFlow",
+      "PyTorch",
+      "OpenCV",
+      "Diffusers",
       "Computer Vision",
+      "Generative AI",
     ],
-    label: "DEEP LEARNING",
-    image: "/projects/steganography.jpg",
-    github: "",
-  },
-
-  {
-    title: "RAG PDF Chatbot",
-    description:
-      "A document-question answering application that retrieves relevant information from PDF files and generates grounded responses using a retrieval-augmented generation pipeline.",
-    tech: [
-      "Python",
-      "LangChain",
-      "LangGraph",
-      "OpenAI",
-      "FAISS",
-      "ChromaDB",
-      "Sentence Transformers",
-    ],
-    label: "LLM & RAG",
-    image: "/projects/rag-chatbot.jpg",
+    label: "GENERATIVE AI",
+    image: "/projects/coloring-book.png",
     github: "",
   },
 
   {
     title: "Gym Management System",
     description:
-      "A database-backed management system for organizing gym members, memberships, subscription information and administrative workflows.",
+      "Database-backed application for managing gym members, memberships, subscriptions and administrative workflows.",
     tech: [
       "Java",
       "SQL",
@@ -122,7 +149,7 @@ export const projects = [
       "Software Engineering",
     ],
     label: "SOFTWARE DEVELOPMENT",
-    image: "/projects/gym-management.jpg",
+    image: "/projects/gym-management.jpeg",
     github: "",
   },
 ];

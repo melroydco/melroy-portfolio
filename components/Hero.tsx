@@ -157,7 +157,7 @@ export default function Hero() {
             {/* RESUME */}
 
             <a
-              href="/resume/Melroydcosta__Resume.pdf"
+              href="/resume/MELROY_RES.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="glass flex items-center gap-2 rounded-2xl px-5 py-3 font-medium transition hover:scale-[1.03]"
